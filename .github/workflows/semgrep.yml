@@ -11,7 +11,7 @@ on:
             - main
             - master
        paths:
-            - .github/iworkflows/semgrep.yml
+            - .github/workflows/semgrep.yml
 
     schedule:
         - cron: '0 12 * * *' #sets semgrep to scan the code at 12noon
